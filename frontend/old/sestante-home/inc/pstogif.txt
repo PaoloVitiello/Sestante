@@ -1,0 +1,17 @@
+#!/bin/ksh
+# ps to gif
+
+
+case "$1" in
+  -h)	echo "Usage: $0 [-r<resolution>] [file.ps]  > file.gif"
+  	exit 1 ;;
+esac
+
+# allow stdin
+case $# in
+  0)	set -- -
+esac
+
+gs -sDEVICE=ppmraw -r300 -q -dSAFER -dNOPAUSE -sOutputFile=- \
+	"$@" quit.ps | pnmcrop | ppmquant 255 \
+	| ppmtogif -transparent rgb:FF/FF/FF

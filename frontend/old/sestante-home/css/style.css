@@ -1,0 +1,693 @@
+/******** video font *******/
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+body {
+width:1078px;
+height:1918px;
+padding: 0;
+margin: 0;
+text-align: center;
+background: #FFF;
+font: 12px/20px Montserrat;
+overflow: hidden;
+}
+
+
+#hmenu {
+margin: 0px;
+padding: 0px; 
+padding-top: 0px; 
+width: 1280px;
+font-size: 18px;
+float: left;
+padding-bottom: 10px; 
+}
+
+#hmenu a{
+padding: 1.2em 1.7em 1.2em 1.7em;
+text-decoration: none;
+color: #FF6600;
+background-color: #FFF;
+margin:0px;
+border: 2px solid #BCBCBC;
+line-height: 75px;
+}
+
+#hmenu a:hover {
+border: 2px solid #2F4A6C;
+margin: 0px;
+}
+
+#Imenu {
+margin: 0px;
+padding: 0px;
+width: 100%;
+font-size: 18px;
+padding-top: 10px; 
+padding-bottom: 10px; 
+}
+
+#Imenu a{
+padding: 1.2em 1.7em 1.2em 1.7em;
+text-decoration: none;
+color: #FF6600;
+background-color: #FFF;
+margin:0px;
+border: 2px solid #BCBCBC;
+line-height: 75px;
+}
+
+#Imenu a:hover {
+border: 2px solid #2F4A6C;
+margin: 0px;
+}
+
+a:link {
+color: #FF6600; 
+text-decoration: none;
+}
+
+a:visited {
+color: #FF6600; 
+text-decoration: none;
+}
+a:hover {
+color: #FF6600;  
+text-decoration: underline;
+}
+
+#heading {
+background: #6D6D74; 
+width: 1280px;
+height: 50px;
+margin: 0px auto 0;
+color: #FFF;
+text-align: center;
+}
+
+#header {
+padding-top: 0px;
+}
+
+h1 {
+font: 20px "Trebuchet MS", Georgia, serif;
+margin-top: 10px;
+text-align: center;
+}
+
+h1 a:link, h1 a:visited {
+font: 48px Arial;
+text-decoration: underline;
+color: black;
+}
+
+h1 a:hover{
+color: #FF6600;
+text-decoration: none;
+}
+
+h2 {
+margin: 1em 0 .2em;
+font: 20px Georgia,Serif;
+/*background: url(/images/grafica/qui.gif) no-repeat 30% 50%;*/
+padding-left: 0px;
+}
+
+#unita > h2 {
+  font: 55px Montserrat;
+  text-align: center;
+  margin: 0.5em 0 .3em;
+}
+
+h3 {
+margin: .2em;
+font: 35px Montserrat;
+color: black;
+}
+
+#unita h4 {
+ font: 25px Montserrat;
+ color: black;
+ padding: 10px;
+}
+
+#unita > table {
+    width: 99%;
+}
+
+.tdcenter {
+    text-align: center;
+}
+
+.tdleft {
+    text-align: left;
+}
+
+span {
+color: black;
+margin: 0.7em 0 .2em;
+font: 18px Arial;
+}
+
+#unita > h3 > span {
+ font: 40px Montserrat;
+}
+
+h4 {
+font: 30px Arial;
+margin: 2px;
+padding: 20px;
+font-weight: bold;
+color: #6D6D74;
+}
+
+h3 a:link, h3 a:visited {
+text-decoration: none;
+color: #6D6D74;
+}
+
+.titolo {
+font: 20px "Trebuchet MS", Georgia, serif;
+margin: 0;
+text-align: left;
+color: #1E67A8;
+padding-top: 12em;
+}
+
+.testo {
+font: 20px "Trebuchet MS", Georgia, serif;
+margin: 0;
+text-align: justify;
+padding-bottom: 20px;
+}
+
+#contenuto {
+background: #FFF;
+margin: 0;
+padding: 0;
+width: 1078px;
+text-align: left;
+height: 1918px;
+border: solid 1px lightgray;
+}
+
+#screensaver {
+background: #FFF;
+margin: 0;
+padding: 0;
+width: 1078px;
+text-align: left;
+height: 1918px;
+border: solid 1px lightgray;
+display: none;
+}
+
+
+#navigation {
+padding: 0px;
+}
+
+
+#main2 {
+background: #FFF;
+padding: 0px;
+margin: 0px;
+width: 1080px;
+}
+
+.alignleft {
+float: left;
+width: 50%;
+}
+
+.alignright {
+float: right;
+width: 50%;
+}
+
+#mappa {
+width: 700px;
+height: 700px;
+float: left;
+padding: 10px 10px;
+border: 1px solid #6D6D74;
+margin-left: 17px;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 15px;
+}
+
+#mappa img{  
+position: absolute;
+left: 30px;
+}
+
+#unita {
+width: 950px;
+float: left;
+padding: 10px 10px;
+overflow:hidden; 
+/* height: 200px; */
+/* border: 1px solid #6D6D74; */
+margin-right: 17px;
+margin-left: 0px;
+margin-top: 0px;
+margin-bottom: 30px;
+}
+
+#unita li{
+margin: 20px 20px 0px 0px;
+font-size: 18px;
+text-align: justify;
+}
+
+#unitaMappa {
+width: 480px;
+float: right;
+padding: 0px 10px;
+overflow:hidden; 
+height: 670px;
+border: 1px solid #6D6D74;
+margin-right: 17px;
+margin-left: 0px;
+margin-top: 0px;
+margin-bottom: 30px;
+}
+
+#unita-tabella{
+font-size: 28px;
+width:950px;
+margin-left: 15px;
+margin-right: 15px;
+/*background: url(/images/bg-header.gif) ;*/
+}
+
+#elencoreparti{
+height: 1078px;
+width: 1050px;
+overflow-x:hidden;
+overflow-y:scroll;
+}
+
+#unita-tabella2{
+font-size: 18px;
+width:1260px;
+position: absolute;
+margin: 15px 15px 15px 15px; ;
+top: 595px;
+left: -2px;
+}
+
+#unita-tabella2 td{
+height: 70px;
+}
+
+#unita-tabella2, #formLettera a:hover{
+text-decoration: none;
+}
+
+#unita-tabella tr:nth-child(odd) {
+background:#d4d2e4;
+}
+
+#unita-tabella tr:nth-child(even){
+background:#f1f0f7;
+}
+
+#unita-tabella td{
+padding: 0px;  
+padding-top: 0;
+padding-bottom: 0em;
+}
+
+
+
+
+#descrizione-tabella{
+margin-right: 0px;
+margin-top: 15px;
+}
+
+#descrizione-tabella td{
+padding: 0px;  
+padding-left: 1em;
+padding-right: 1em;
+}
+
+#controlloOverflow{
+overflow:hidden; 
+min-height: 60px;
+padding-top:10px;
+padding-bottom: 7px;
+padding-left:18px;
+padding-right:10px;
+margin: 0px;
+width:700px;
+float:left;
+/*background: url(/images/grafica/bottoni/610x66Normale.gif) no-repeat 0% 50%;*/
+/*background:#d4d2e4;*/
+}
+
+#controlloOverflow{
+background:transparent;}
+
+#controlloOverflow:active{
+/*background: url(/images/grafica/bottoni/610x66Click.gif) no-repeat 0% 50%;*/
+border: inset 3px gray;
+/* visto che aumenta il bordo, diminuisce la dimensione */
+width: 694px;
+height: 54px;
+}
+
+#controlloOverflow img{
+position: relative;
+top: -14px;
+left: 20px;
+margin-right: 30px;
+}
+
+input.search { width: 330px; heigh:30px; border-style:inset; border-radius:4px; none; padding: 6px 10px; color: #111; font-size: 24px; font-weight: bold; margin-top:10px; text-decoration:none;}
+input.search2 { width: 279px; border: none; background: #fff url(/images/input.gif) no-repeat; padding: 6px 10px; color: #1E67A8; font-weight: bold; margin-top:10px;}
+
+.form {display: inline; }
+
+.aLink {
+background: #fff url(/images/grafica/aLink.gif) repeat-x bottom; 
+}
+
+#formLettera{
+font-size: 14px;
+color: red;
+background:#7C7D87;
+width:1080px;
+position: absolute;
+/*margin: 13px 10px 15px 10px;*/
+top: 1400px;
+left: 0px;
+z-index: 10;
+}
+
+#formLettera td{
+height: 74px;
+}
+
+#menuGenerale{
+width:1000px;
+margin: 5px 10px 10px 10px; 
+}
+
+#menuGenerale td{
+width: 180px;
+height: 74px;
+}
+
+#alfabeto {
+font-size: 18px;
+width:1080px;
+position: absolute;
+margin: 13px 0 5px 0;
+top:1500px;
+background:#7C7D87;
+}
+
+#alfabeto a:hover{
+text-decoration: none;
+}
+
+#alfabeto td{
+border: 0px;
+padding: 0px;
+height: 80px;
+background: transparent; 
+}
+
+.bottone{
+font-family: Montserrat;
+border: outset 2px gray;
+border-radius:5px;
+width: 90%;
+height: 90%;
+font-size: 27px;
+color: #000;
+/*background: #fff url(/images/grafica/bottoni/bottnormale.gif) no-repeat 50% 50%;*/
+background:#EBE7E9;
+padding-bottom: 8px;
+padding-right: 8px;
+}
+
+.bottone:active{
+/*background: #fff url(/images/grafica/bottoni/buttonClick.gif) no-repeat 50% 50%;*/
+border: inset 4px gray;
+}
+
+.bottone:visited{
+background: #fff url(/images/grafica/bottoni/buttonClick.gif) no-repeat 50% 50%;
+}
+
+.bottone180{
+border: 0px;
+width: 100%;
+height: 100%;
+font-size: 15px;
+color: #000;
+background: #fff url(/images/grafica/bottoni/180Normale.gif) no-repeat 50% 50%;
+}
+
+.bottone180:active{
+background: #fff url(/images/grafica/bottoni/180Click.gif) no-repeat 50% 50%;
+}
+
+.bottone180x74{
+border: 0px;
+width: 100%;
+height: 100%;
+font-size: 15px;
+color: #000;
+background: #fff url(/images/grafica/bottoni/180x74Normale.gif) no-repeat 50% 50%;
+}
+
+.bottone180x74:active{
+background: #fff url(/images/grafica/bottoni/180x74Click.gif) no-repeat 50% 50%;
+}
+
+.bottone250x74{
+font-family: Montserrat;
+border: outset 2px gray;
+border-radius:5px;
+width: 90%;
+height: 90%;
+font-size: 25px;
+color: #000;
+background:#EBE7E9;
+/*background: #fff url(/images/grafica/bottoni/250x74Normale.gif) no-repeat 50% 50%;*/
+}
+
+.bottone250x74:active{
+/*background: #fff url(/images/grafica/bottoni/250x74Click.gif) no-repeat 50% 50%;*/
+border: inset 4px gray;
+}
+
+.bottone480x74{
+font-family: Montserrat;
+border: outset 2px gray;
+border-radius:5px;
+width: 90%;
+height: 90%;
+font-size: 22px;
+color: #000;
+background:#EBE7E9;
+/*background: #fff url(/images/grafica/bottoni/480x74Normale.gif) no-repeat 50% 50%;*/
+}
+
+.bottone480x74:active{
+/*background: #fff url(/images/grafica/bottoni/480x74Click.gif) no-repeat 50% 50%;*/
+border: inset 4px gray;
+}
+
+.bottone610x66{
+border: 0px;
+width: 100%;
+height: 100%;
+font-size: 22px;
+color: #000;
+background: #fff url(/images/grafica/bottoni/610x66Normale.gif) no-repeat 50% 50%;
+}
+
+.bottone610x66:active{
+background: #fff url(/images/grafica/bottoni/610x66Click.gif) no-repeat 50% 50%;
+}
+
+#pulsanteStampa{  
+position: absolute;
+top: 630px;
+left: 17px;
+padding-top: 5px; 
+padding-bottom: 10px; 
+font-size: 28px;
+}
+
+#pulsanteStampa a{
+padding: 0.5em 2.8em 0.5em 2.8em;
+text-decoration: none;
+color: red;
+background-color: #FFF;
+margin:0px;
+border-bottom : 4px solid #6D6D74; 
+border-right : 4px solid #6D6D74; 
+border-left : 1px solid #6D6D74; 
+border-top : 1px solid #6D6D74; 
+}
+
+#pulsanteStampa a:active {
+border-bottom : 1px solid #6D6D74; 
+border-right : 1px solid #6D6D74; 
+border-left : 4px solid #6D6D74; 
+border-top : 4px solid #6D6D74; 
+margin: 0px;
+}
+
+#pulsanteStampa2{  
+position: absolute;
+top: 950px;
+left: 510px;
+padding-top: 5px; 
+padding-bottom: 10px; 
+font-size: 28px;
+height: 74px;
+width: 500px;
+}
+
+
+#IstruzioniMenuGenerale {
+
+margin: 1em 0.2em;
+font: 28px Georgia,Serif;
+background: url(/images/grafica/FrecciaAlto.gif) no-repeat 95% 50%;
+padding: 10px;
+padding-right: 60px;
+width: 410px;
+}
+
+#IstruzioniVoiSieteQui {
+position: absolute;
+top: 280px;
+margin: 1em 0.2em;
+font: 28px Georgia,Serif;
+background: url(/images/grafica/qui.gif) no-repeat 0% 50%;
+padding: 10px;
+padding-left: 50px;
+width: 410px;
+}
+
+#IstruzioniUsoTouch {
+position: absolute;
+top: 150px;
+margin: 1em 0.2em;
+font: 28px Georgia,Serif;
+padding: 10px;
+text-align: center;
+width: 410px;
+}
+
+#IstruzioniTastiera {
+	width: 380px;
+position: absolute;
+top: 530px;
+
+margin: 1em 0.2em;
+font: 28px Georgia,Serif;
+background: url(/images/grafica/FrecciaBasso.gif) no-repeat 95% 50%;
+padding: 10px;
+padding-right: 90px;
+}
+
+.screensaver-page{
+position:absolute; 
+top:0px; 
+left:0px;  
+width:100%; 
+height:95%; 
+background-color:white; 
+padding:25px 0px 25px 0px; 
+border:0px solid black; 
+visibility:hidden; 
+color:black; 
+text-align:left;
+}
+
+.screensaver-page h3{
+font: 30px;
+}
+
+
+.screensaver li{
+margin: 0px 20px 100px 0px;
+font: 30px Georgia,Serif;
+text-align: justify;
+color: grey;
+}
+
+#mappaSCR {
+width: 700px;
+height: 580px;
+float: left;
+padding: 10px 10px;
+border: 1px solid #6D6D74;
+margin-left: 17px;
+margin-right: 0px;
+margin-top: 0px;
+margin-bottom: 15px;
+}
+
+#mappaSCR img{  
+position: absolute;
+left: 30px;
+}
+
+#ColorRed{
+color: red;
+}
+
+#div_edificio{
+font-size:30px;
+font-weight:bold;
+float:left;
+background:#21205f;
+color:white;
+width:70px;
+min-height:70px;
+text-align:center;
+margin:0;
+margin-top:2px;
+line-height:70px;
+}
+
+#div_piano{
+font-size:30px;
+font-weight: bold;
+float:left;
+background:#a3cff0;
+width:50px;
+height:70px;
+text-align:center;
+margin:0;
+margin-top:2px;
+line-height:70px;
+}
+
+
+#div_stanza{
+font-size:30px;
+float:left;
+background:#d2e6f8;
+width:100px;
+height:70px;
+text-align:center;
+margin:0;
+margin-top:2px;
+line-height:70px;
+overflow:hidden;
+}

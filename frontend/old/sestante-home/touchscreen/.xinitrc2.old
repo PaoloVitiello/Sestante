@@ -1,0 +1,6 @@
+#!/bin/sh
+xset s off
+xsetroot -bg black -fg white -solid black -cursor_name watch
+firefox --fullscreen &
+xterm -bg black -fg white -geometry 85x30+15+0 -e /root/erogcom2prnt/erogcom2prnt -v -b /root/tasto.txt -l /root/testo.txt &
+exec xterm -bg black -fg white -geometry 70x30+565+0 -name login

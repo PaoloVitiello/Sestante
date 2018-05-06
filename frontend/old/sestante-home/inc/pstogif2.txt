@@ -1,0 +1,12 @@
+#!/bin/bash
+# pstogif - converts $1.ps to $1.gif
+# Dave Charlton 
+echo "Converting" $1".ps to gif format..."
+gs -sDEVICE=ppm -sOutputFile=$1.ppm $1.ps <<EOF
+
+quit
+EOF
+pnmcrop $1.ppm >$1_crop.ppm
+rm $1.ppm
+ppmtogif $1_crop.ppm >$1.gif
+rm $1_crop.ppm

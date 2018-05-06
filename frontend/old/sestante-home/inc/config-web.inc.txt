@@ -1,0 +1,28 @@
+<?php
+
+ include 'functions.inc'; 
+
+$CONF['database_type'] = 'mysql';
+$CONF['database_host'] = 'localhost';
+$CONF['database_user'] = 'root';
+$CONF['database_password'] = 'Salaria913';
+$CONF['database_name'] = 'gemelli';
+$CONF['database_prefix'] = '';
+$CONF['Dir_installazione'] = '/var/www/theta/data/gemelli/web';
+$CONF['FileStampaPS'] = ''.$CONF['Dir_installazione'].'/images/mappe/stampa.ps';
+$CONF['TypeApplication'] = 'WEB';
+//$CONF['TypeApplication'] = 'PS';
+$CONF['TitleApplication'] = 'Piante GEMELLI - 1';
+$CONF['IMG_mappaGenerale']= ''.$CONF['Dir_installazione'].'/images/mappe/generale/pianta.gif';
+$CONF['AttendiRitornoMappa'] = '20';
+$CONF['AttendiStampaPS'] = '60';
+
+setlocale(LC_ALL, 'it_IT');
+$CONF['Mese'] = ucfirst(strftime("%B"));
+$CONF['Anno'] = strftime("%Y");
+$CONF['Giorno'] = strftime("%d");
+$CONF['NomeGiorno'] = ucfirst(strftime("%a"));
+$CONF['Ora'] = strftime("%H");
+$CONF['Minuti'] = strftime("%M");
+
+?>

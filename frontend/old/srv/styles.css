@@ -1,0 +1,74 @@
+/******** video font *******/
+@font-face {
+  font-family: "Montserrat";
+  src: url("/sestante/srv/fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+/******** Main */
+body {margin:0; padding:0; width:100%; background-color:white; font:13px sans-serif;}
+div#header {position:absolute; top:0; left:0; background-color:silver; width:100%; min-width:1000px; height:70px;}
+div#logo {position:absolute; top:10px; left:50px;}
+div#main {position:absolute; top:80px; left:0px; width:100%; min-width:1000px; bottom:30px; background-color:transparent; overflow-x:hidden; overflow-y:auto;}
+div#content {position:absolute; height:400px; width:400px; background-color:transparent; overflow:auto;}
+div#footer {margin-top:20px; margin: 0 50px 0 50px; border-top:1px solid gray; color:gray; }
+div.wall {position:absolute; top:20px; width:362px; height:630px; left:150px; border:1px solid; background-color:white;}
+div.lista {position:absolute; left:0; width:100%; background-color:silver; }
+
+/****** menu  ********/
+#drop-menu {  position: absolute;  top:51px;  left:0px;	 width:100%; min-width:1000px; margin: auto; padding:0; background-color:lightgray;}
+span#margin { float:left; width:40px;}
+ul#menu { margin:0;	padding: 0;	list-style: none;	float:left;	width: 800px;	background-color: transparent;	font-size:12px;;}
+ul#menu li { margin:0;	padding:0;	float:left;	display: block;	border:0;	position: relative;}
+ul#menu li a {	float: left;  padding:2px 15px 3px 15px;	color: black;	text-transform: uppercase;	text-decoration:none;}
+ul#menu li a:hover {	background: #666;	color: white;}
+ul#menu ul {	margin:6px 0 0;	padding:0;	display:inline-block;	list-style: none;	opacity: 0;	visibility: hidden;	position: absolute;	top: 13px;	left: 0;	z-index:9999;	background: #888;}
+ul#menu li:hover {	background-color: #666;}
+ul#menu li:hover a{ color: white;}
+ul#menu li:hover > ul {	opacity: 1;	visibility: visible;}
+ul#menu ul li {	float: none;	display: block;	border: 0 solid white; border-top-width:0; background:555}
+ul#menu ul a {	width: 130px; display: block; white-space: nowrap; float: none;  color:white; text-transform: none;}
+ul#menu ul li:hover{	background-color: #666;	color:white;}
+ul#menu ul a:hover{	background-color: #777;	color:white;}
+ul#menu ul ul {	top: 0;	left: 150px;	margin: 0;}
+ul#menu ul ul li {	float: none; margin:0;	display: block; border:0;}
+span#user { float:right; margin-right:20px;}
+span#user a{color:black;}
+span#user a:hover{color:red;}
+/****** end menu  ********/
+
+/******* Varie *********/
+.titolo { margin:10px; margin-left:50px; font-size: 30px;}
+table.tabella { margin:20px; margin-left:50px; border:solid 1px black; border-collapse:collapse; padding:0; font-size:13px;}
+table.tabella tr td{ border: solid 1px black; padding:2px;}
+table.videowall td {width:30px; padding:0 4px 0 4px;}
+table.buttons {margin:0; margin-left:50px; border:0; padding:0; border-collapse:collapse;}
+table.buttons tr{margin:0; padding:0; border:0;}
+table.buttons tr td{margin:0; padding:0; border:0;}
+table.buttons button{margin:0 40px 0 0;}
+.lcd {background-color:#E0DD30; padding: 0 0 0 5px;}
+.statmsg {margin:0 0 0 50px; color:red;}
+div.contenuto {margin:10px 0 10px 50px; display:inline-block;}
+div.alert {border: solid 1px black; margin: 20px 0 20px 50px; padding:4px; width:400px; color:red; font-size:20px; display:inline-block;}
+div.stato {margin:0 0 0 50px; color:red;}
+div.generic{margin:0 0 0 50px;}
+
+td.orange{background-color:#FFC060;}
+td.green{background-color:#80FF40;}
+td.red{background-color:#FF4040;}
+
+button.action {font-weight:bold; font-size:14px; line-height:14px; padding:0;}
+button.red {background-color:#FF4040; border-color:#FF4040;}
+button.red:hover {background-color:#FFA0A0; border-color:#FFA0A0;}
+button.orange {background-color:#FFC060; border-color:#FFC060;}
+button.orange:hover {background-color:#FFE080; border-color:#FFE080;}
+button.green {background-color:#80FF40; border-color:#80FF40;}
+button.green:hover {background-color:#D0FFA0; border-color:#D0FFA0;}
+
+/******** Login form */
+ form.login {font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 10pt; margin: 10px; }
+ form.login label {position: relative; vertical-align: middle; bottom: 1px; }
+ form.login input.text, input.password, input.email, input.submit {display: block; margin-bottom: 15px; }
+ form.login input.checkbox { margin-bottom: 15px; }
+ p.error { color:red; font-weight:600; margin:10px;}
+ p.message { color:black; font-weight:600; margin:10px;}
+

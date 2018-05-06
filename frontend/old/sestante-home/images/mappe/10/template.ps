@@ -1,0 +1,63 @@
+%!PS-Adobe-2.0 
+%%Title: Inserire Titolo
+%%Creator: Theta S.r.l. 
+%%For: Generatore percorso - Gemelli  
+%%EndComments 
+%%EndProlog 
+% 
+
+/BeginEPSF {                                         %def
+/b4_Inc_state save def                             % Save state for cleanup
+/dict_count countdictstack def                  % Count objects on dict stack
+/op_count count 1 sub def                        % Count objects on operand stack
+userdict begin                                         % Push userdict on dict stack
+/showpage { } def                                     % Redefine showpage, { } = null proc
+0 setgray 0 setlinecap                              % Prepare graphics state
+1 setlinewidth 0 setlinejoin
+10 setmiterlimit [ ] 0 setdash newpath
+/languagelevel where                                % If level not equal to 1 then
+{pop languagelevel                                   % set strokeadjust and
+1 ne                                                       % overprint to their defaults.
+{false setstrokeadjust false setoverprint
+} if
+} if
+} bind def
+
+
+/EndEPSF {                                            %def
+count op_count sub {pop} repeat               % Clean up stacks
+countdictstack dict_count sub {end} repeat
+b4_Inc_state restore
+} bind def
+
+
+/Times-Bold findfont
+20 scalefont setfont
+10 750 moveto
+(Titolo della pagina da stampare) show
+/Times-Bold findfont
+12 scalefont setfont
+10 650 moveto
+(Corpo del testo da impaginare) show
+
+BeginEPSF                                   % Prepare for the included EPS file
+%%BeginDocument: MyEPSFile
+1 200 translate
+(3.eps) run
+
+%%EndDocument
+EndEPSF                                     % Restore state, and cleanup stacks
+
+BeginEPSF                                   % Prepare for the included EPS file
+%%BeginDocument: MyEPSFile
+1 200 translate
+(2.eps) run
+%%EndDocument
+EndEPSF                                     % Restore state, and cleanup stacks
+
+
+
+showpage 
+% 
+%%Trailer 
+%%EOF 

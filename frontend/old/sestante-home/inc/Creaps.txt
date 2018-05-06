@@ -1,0 +1,1 @@
+gs -sDEVICE=pswrite -sOutputFile=template2.ps -dBATCH -dNOPAUSE -dEPSFitPage -sPAPERSIZE=a4 template.ps

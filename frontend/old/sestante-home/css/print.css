@@ -1,0 +1,275 @@
+/*
+Theme Name: Golden Gray
+Theme URI: http://wpram.com/
+Description: golden gray
+Version: 1.5
+Author: William Pramana
+Author URI: http://wpram.com/
+*/
+
+body {
+padding: 0;
+margin: 0;
+text-align: center;
+font: 12px/20px Verdana, Arial, Tahoma, sans-serif;
+}
+
+
+#hmenu {
+	position:relative;
+	margin: 0px;
+	padding: 0px;
+	width: 1280px;
+	font-size: 18px;
+	float: left;
+	}
+
+#hmenu a{
+	padding: 10px 37px 10px 37px;
+	text-decoration: none;
+	color: #FF6600;
+	background-color: #FFF;
+	margin:0px;
+	border: 2px solid #BCBCBC;
+	line-height: 48px;
+}
+
+#hmenu a:hover {
+	border: 2px solid #2F4A6C;
+	margin: 0px 0px 0px 0px;
+		
+}
+
+#menu {
+	position:relative;
+	margin: 0px;
+	padding: 0px;
+	width: 1280px;
+	font-size: 18px;
+	float: left;
+	}
+
+#menu a{
+	padding: 10px 10px 10px 10px;
+	text-decoration: none;
+	color: #FF6600;
+	background-color: #FFF;
+	margin:0px;
+	border: 2px solid #BCBCBC;
+	line-height: 48px;
+}
+
+#menu a:hover {
+	border: 2px solid #2F4A6C;
+	margin: 0px 0px 0px 0px;
+		
+}
+
+
+a:link {
+	color: #666; 
+	text-decoration: none;
+	}
+
+a:visited {
+	color: #696969; 
+	text-decoration: none;
+	}
+a:hover {
+	color: #CC0000;  
+	text-decoration: underline;
+	}
+
+#heading {
+background: #6D6D74; /*url(images/bg-header.gif) no-repeat*/
+width: 1260px;
+height: 40px;
+margin: 10px auto 0;
+color: #FFF;
+text-align: left;
+display:none;
+}
+
+#header {
+padding-top: 5px;
+padding-left: 10px;
+}
+
+h1 {
+font: 24px "Trebuchet MS", Georgia, serif;
+margin: 0;
+text-align: center;
+}
+
+h1 a:link, h1 a:visited {
+text-decoration: none;
+color: #FFCC66;
+}
+
+h2 {
+font: italic normal 14px "Trebuchet MS", Georgia, serif;
+margin: 0;
+}
+
+h3 {
+  margin: 1em 0 .2em;
+  font: 18px Georgia,Serif;
+  color: #6D6D74;
+  background: url(/images/post-icon.gif) no-repeat 0 50%;
+  padding-left: 25px;
+}
+
+h4 {
+  font: 14px Georgia, serif;
+  margin: 2px;
+  font-weight: bold;
+  color: #6D6D74;
+}
+
+h3 a:link, h3 a:visited {
+  text-decoration: none;
+  color: #6D6D74;
+}
+
+#content {
+	background: #FFF;
+	margin: 0 auto;
+	width: 1260px;
+	text-align: left;
+}
+
+#navigation {
+	padding: 0px;
+		display:none;
+
+}
+
+#minitabs {	
+
+	height: 16px;
+	margin: 0;
+	padding: 10px 0 10px 0px;
+	border-bottom: 1px solid #FFF;
+	background: #9FA19E;
+	text-transform: uppercase;
+	}
+
+#minitabs li {
+	 
+	margin: 0; 
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+	
+#minitabs a:link, #minitabs a:visited {
+	float: left;
+	font-size: 20px;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0 10px 0px 10px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	color: #FFF;
+	}
+
+li.current_page_item a, #minitabs a:hover {
+	border-bottom: 4px solid #FFF;
+	padding-bottom: 8px;
+	background: #9FA19E;
+	color: #FFF;
+	/*color: #D8D4C9;*/
+	}
+
+	#main2 {
+	float: left;
+	background: #FFF;
+	padding: 0px 0px;
+	width: 1260px;
+}
+	
+#main {
+	float: left;
+	background: #FFF;
+	padding: 5px 15px;
+	width: 520px;
+}
+
+#sidebar {
+	width: 180px;
+	margin: 0 0 0 550px;
+}
+
+#sidebar ul {
+	margin-top: 1px;
+	padding-left: 6px;
+	margin: 0;
+	list-style-type: none;
+}
+
+#sidebar li {
+	background: url(/images/bullet.png) no-repeat 0 5px;
+	padding-left: 18px;
+}
+
+#footer {
+	clear: both;
+	background: #6D6D74;
+	text-align: center;
+	color: #FFF;
+	padding: 5px;
+	display:none;
+}
+
+#footer p {
+	margin: 0;
+}
+
+#footer a:link, #footer a:visited { 
+	/*color: #ACAB95;*/
+	color: #FFCC66;
+}
+
+.meta {
+	color: #6D6D74;
+	font-size: 11px;
+	margin: 0;
+}
+
+.entry {
+	padding-bottom: 25px;
+	/*background: url(/images/entry-separate.gif) no-repeat center bottom;*/
+}
+
+blockquote {
+	border-left: 2px solid #6D6D74;
+	padding-left: 5px;
+}
+
+.commentbox {
+	border: 1px solid #6D6D74;
+	margin: 5px 2px;
+	padding: 5px;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+	#mappa {
+	width: 1260px;
+
+	padding: 10px 10px;
+}
+	#mappa img{
+
+}
+
+	#unita {
+	width: 500px;
+	padding: 10px 10px;
+}
