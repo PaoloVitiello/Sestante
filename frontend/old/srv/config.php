@@ -12,7 +12,7 @@ $CONF['TypeApplication'] = 'WEB';
 /* Accesso al database */
 
 $CONF['database_type'] = 'mysql';
-$CONF['database_host'] = '127.0.0.1';
+$CONF['database_host'] = 'localhost';
 $CONF['database_user'] = 'root';
 $CONF['database_password'] = 'lorenzo.0';
 $CONF['database_name'] = 'sestante';
